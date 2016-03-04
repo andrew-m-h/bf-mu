@@ -25,12 +25,12 @@ executable MuBF
                      , transformers >=0.4 && <0.5
                      , libmu
   if os(linux)
-    ghc-options:       -Wall -O2 -fwarn-tabs -optl-Wl,--no-as-needed -optl-Wl,-rpath,/home/andrew/Documents/git/bf-mu/libmu-HS/microvm-refimpl2/cbinding/
+    ghc-options:       -Wall -O2 -fwarn-tabs -optl-Wl,--no-as-needed -optl-Wl,-rpath,/home/andrew/Documents/git/bf-mu/microvm-refimpl2/cbinding/
   else
-    ghc-options:       -Wall -O2 -fwarn-tabs -optl-Wl,-rpath,/home/andrew/Documents/git/bf-mu/libmu-HS/microvm-refimpl2/cbinding/
-  include-dirs:        /home/andrew/Documents/git/bf-mu/libmu-HS/microvm-refimpl2/cbinding/
+    ghc-options:       -Wall -O2 -fwarn-tabs -optl-Wl,-rpath,/home/andrew/Documents/git/bf-mu/microvm-refimpl2/cbinding/
+  include-dirs:        /home/andrew/Documents/git/bf-mu/microvm-refimpl2/cbinding/
   extra-libraries:     murefimpl2start
-  extra-lib-dirs:      /home/andrew/Documents/git/bf-mu/libmu-HS/microvm-refimpl2/cbinding/
+  extra-lib-dirs:      /home/andrew/Documents/git/bf-mu/microvm-refimpl2/cbinding/
   hs-source-dirs:      src
   default-language:    Haskell2010
 

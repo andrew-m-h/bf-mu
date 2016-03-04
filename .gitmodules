@@ -1,6 +1,6 @@
 [submodule "microvm-refimpl2"]
 	path = microvm-refimpl2
-	url = https://github.com/microvm/microvm-refimpl2.git
+	url = git@github.com:microvm/microvm-refimpl2.git
 [submodule "libmu-HS"]
 	path = libmu-HS
 	url = git@github.com:andrew-m-h/libmu-HS.git
